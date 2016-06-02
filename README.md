@@ -6,8 +6,8 @@
 1. Opened VS, new project, ASP.NET Application (.NET Framework)
 2. Name WebApi
 3. Select Web API  
-  --keep MVC and API checked  
-  --change authentication to no authentication  
+  *keep MVC and API checked  
+  *change authentication to no authentication  
 4. Click OK and let VS build project
 5. Add the Chinook Connedtion string to the Web.config
 6. Make a Model for Artist
