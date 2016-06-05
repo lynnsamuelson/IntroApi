@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="BoilerPlate">
+  <head>
+    <meta charset="utf-8">
+   <!--  <link rel="stylesheet" type="text/css" href="lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Angular</title>
+  </head>
+  <body>
+    <div class="content" ng-controller="artist">
+      <h3>Test App</h3>
+      <div ng-repeat="artistArray in artists">
+        <div ng-repeat="artist in artistArray">{{artist.Name}}
+        <button ng-click="delete(artist.ArtistId)">Delete</button>
+      </div>
+      </div>
+    </div>
+
+ <!-- <script type="text/javascript" src="hello.js"></script>  -->
+  <script type="text/javascript" src="lib/bower_components/angular/angular.min.js"></script>
+  <script type="text/javascript" src="lib/bower_components/angular-route/angular-route.min.js"></script>
+  <script type="text/javascript" src="lib/bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="lib/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="app/app.js"></script>
+  </body>
+</html>
